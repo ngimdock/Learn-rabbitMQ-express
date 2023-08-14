@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  mongodb:
+    image: mongo:5.0
+    container_name: microservice_main
+    ports:
+      - 27017:27017
+    environment:
+      MONGO_INITDB_DATABASE: microservice_main
+      # MONGO_INITDB_ROOT_USERNAME: microservice_main
+      # MONGO_INITDB_ROOT_PASSWORD: microservice_main
