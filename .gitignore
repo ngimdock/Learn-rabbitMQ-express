@@ -4,4 +4,5 @@ node_modules/
 build/
 tmp/
 temp/
-.env
+admin-microservice/.env
+main-microservice/.env
